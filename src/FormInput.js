@@ -5,6 +5,7 @@ function FormInput () {
         <div>
             <h2>User's Details</h2>
             <label>Name: </label>
+            <input type="text" placeholder="Name" />
         </div>
 
     );
