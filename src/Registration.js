@@ -15,6 +15,8 @@ function Registration () {
             <label>Confirm Password: </label>
             <input type="password" placeholder="Confirm Password" />
 
+            <button onClick={}>Submit</button>
+
         </div>
     );
 }
