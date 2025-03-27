@@ -13,6 +13,7 @@ function Registration () {
             <input type="password" placeholder="Password" />
 
             <label>Confirm Password: </label>
+            <input type="password" placeholder="Confirm Password" />
 
         </div>
     );
