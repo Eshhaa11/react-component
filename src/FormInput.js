@@ -10,7 +10,7 @@ function FormInput () {
         console.log("Number:", e.target.value);
     };
 
-    const handlePasswordChnage = (e) => {
+    const handlePasswordChange = (e) => {
         console.log("Password:", e.target.value);
     };
 
@@ -24,7 +24,7 @@ function FormInput () {
             <input type="number" placeholder="Number" onChange={handleNumberChange} />
 
             <label>Password:</label>
-            <input type="password" placeholder="Password"  onChange={handlePasswordChange}/>
+            <input type="password" placeholder="Password"  onChange={handlePasswordChange} />
         </div>
 
     );
