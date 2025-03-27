@@ -2,6 +2,8 @@ import React, {useState} from "react";
 
 function Details () {
 
+    const [comment, setComment] = useState("")
+
     const handleTextChange = (e) => {
         console.log("Comment:", e.target.value)
     };
