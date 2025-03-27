@@ -30,7 +30,7 @@ function FormInput () {
             <label>Password:</label>
             <input type="password" placeholder="Password"  onChange={handlePasswordChange} />
 
-            <button>Sumbit Details</button>
+            <button onClick={handleOnClick}>Sumbit Details</button>
         </div>
 
     );
