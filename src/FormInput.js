@@ -9,15 +9,15 @@ function FormInput () {
     
 
     const handleNameChange = (e) => {
-        console.log("Name:", e.target.value);
+        setName(e.target.value);
     };
 
     const handleNumberChange = (e) => {
-        console.log("Number:", e.target.value);
+        setNumber(e.target.value);
     };
 
     const handlePasswordChange = (e) => {
-        console.log("Password:", e.target.value);
+        setPassword(e.target.value);
     };
 
     const handleOnClick = (e) => {
