@@ -10,6 +10,10 @@ function FormInput () {
         console.log("Number:", e.target.value);
     };
 
+    const handlePasswordChnage = (e) => {
+        console.log("Password:", e.target.value);
+    };
+
     return (
         <div>
             <h2>User's Details</h2>
