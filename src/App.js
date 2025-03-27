@@ -6,6 +6,8 @@ function App() {
   return (
     <div>
         <FormInput />
+        <Details />
+        
     </div>
   );
 }
