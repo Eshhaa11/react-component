@@ -10,7 +10,7 @@ function Details () {
     };
 
     const handleButtonOnClick = (e) => {
-        console.log("Button Clicked", e.target.value)
+        console.log("Button Clicked", comment)
     };
 
     return (
