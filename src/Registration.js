@@ -12,6 +12,8 @@ function Registration () {
             <label>Password: </label>
             <input type="password" placeholder="Password" />
 
+            <label>Confirm Password: </label>
+
         </div>
     );
 }
