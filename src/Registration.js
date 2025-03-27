@@ -4,6 +4,7 @@ function Registration () {
 
     const handleButtonOnClick = (e) => {
         console.log("UserName: ", username);
+        console.log("Email: ", email);
 
     }
     return (
