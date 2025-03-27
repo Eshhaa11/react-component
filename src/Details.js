@@ -1,6 +1,10 @@
 import React from "react";
 
 function Details () {
+
+    const handleTextChange = (e) => {
+        console.log("Comment:", e.target.value)
+    }
     return (
      <div>
         <h1>REACT FUNDAMENTALS</h1>
