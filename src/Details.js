@@ -17,7 +17,7 @@ function Details () {
 
         <label>"Comment: "</label>
         <textarea placeholder="Add Comment" onChange={handleTextChange}></textarea>
-
+        
         <button value="Comment" onClick={handleButtonOnClick}>Sumbit</button>
 
      </div> 
