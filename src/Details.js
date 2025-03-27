@@ -5,6 +5,7 @@ function Details () {
     const [comment, setComment] = useState("")
 
     const handleTextChange = (e) => {
+        setComment(e.target.value)
         console.log("Comment:", e.target.value)
     };
 
