@@ -5,7 +5,9 @@ function Registration () {
         <div>
             <label>UserName:</label>
             <input type="text" placeholder="Username" />
-            
+
+            <label></label>
+
         </div>
     );
 }
