@@ -1,46 +1,40 @@
-import React, {useState} from "react";
+    import React from "react";
 
-function FormInput () {
+    function FormInput () {
 
-    const [name, setName] = useState("");
-    const [number, setNumber] = useState("");
-    const [password, setPassword] = useState("");
+        const handleNameChange = (e) => {
+            console.log("Name:", e.target.value);
+        };
 
-    
+        const handleNumberChange = (e) => {
+            console.log("Number:", e.target.value);
+        };
 
-    const handleNameChange = (e) => {
-        setName(e.target.value);
-    };
+        const handlePasswordChange = (e) => {
+            console.log("Password:", e.target.value);
+        };
 
-    const handleNumberChange = (e) => {
-        setNumber(e.target.value);
-    };
+        const handleOnClick = (e) => {
+            console.log("Button has been clicked!", e.target.value);
+        };
 
-    const handlePasswordChange = (e) => {
-        setPassword(e.target.value);
-    };
+        return (
+            <div>
+                <h2>User's Details</h2>
+                <label>Name: </label>
+                <input type="text" placeholder="Name" onChange={handleNameChange}/>
 
-    const handleOnClick = () => {
-        alert(`Name: ${name} \nNumber: ${number}\nPassword: ${password}`);
-    };
+                <label>Number:</label>
+                <input type="number" placeholder="Number" onChange={handleNumberChange} />
 
-    return (
-        <div>
-            <h2>User's Details</h2>
-            <label>Name: </label>
-            <input type="text" placeholder="Name" onChange={handleNameChange}/>
+                <label>Password:</label>
+                <input type="password" placeholder="Password"  onChange={handlePasswordChange} />
 
-            <label>Number:</label>
-            <input type="number" placeholder="Number" onChange={handleNumberChange} />
+                <button onClick={handleOnClick}>Sumbit Details</button>
+            </div>
 
-            <label>Password:</label>
-            <input type="password" placeholder="Password"  onChange={handlePasswordChange} />
+        );
 
-            <button onClick={handleOnClick}>Sumbit Details</button>
-        </div>
+    }
 
-    );
-
-}
-
-export default FormInput;
+    export default FormInput;
