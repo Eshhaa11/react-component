@@ -1,6 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 
 function FormInput () {
+
+    const [name, setName] = useState("");
+    
 
     const handleNameChange = (e) => {
         console.log("Name:", e.target.value);
