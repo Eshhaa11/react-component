@@ -18,10 +18,10 @@ function FormInput () {
         <div>
             <h2>User's Details</h2>
             <label>Name: </label>
-            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Name" onChange={handleNameChange}/>
 
             <label>Number:</label>
-            <input type="number" placeholder="Number" />
+            <input type="number" placeholder="Number" onChange={handleNumberChange} />
 
             <label>Password:</label>
             <input type="password" placeholder="Password" />
