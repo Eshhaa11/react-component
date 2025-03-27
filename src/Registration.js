@@ -3,8 +3,8 @@ import React from "react";
 function Registration () {
 
     const handleButtonOnClick = (e) {
-        console.log("Name: ", name);
-        
+        console.log("UserName: ", username);
+
     }
     return (
         <div>
