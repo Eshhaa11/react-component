@@ -2,7 +2,7 @@ import React from "react";
 
 function Registration () {
 
-    const handleButtonOnClick = (e) {
+    const handleButtonOnClick = (e) => {
         console.log("UserName: ", username);
 
     }
