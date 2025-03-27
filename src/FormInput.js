@@ -24,7 +24,7 @@ function FormInput () {
             <input type="number" placeholder="Number" onChange={handleNumberChange} />
 
             <label>Password:</label>
-            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Password"  onChange={handlePasswordChange}/>
         </div>
 
     );
