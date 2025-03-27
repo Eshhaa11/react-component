@@ -3,6 +3,8 @@ import React, {useState} from "react";
 function FormInput () {
 
     const [name, setName] = useState("");
+    const [number, setNumber] = useState("");
+    
     
 
     const handleNameChange = (e) => {
