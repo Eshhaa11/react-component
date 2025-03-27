@@ -9,6 +9,9 @@ function FormInput () {
 
             <label>Number:</label>
             <input type="number" placeholder="Number" />
+
+            <label>Password:</label>
+            <input type="password" placeholder="Password" />
         </div>
 
     );
