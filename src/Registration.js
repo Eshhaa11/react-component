@@ -28,7 +28,7 @@ function Registration () {
             <input type="email" placeholder="Email" onChange={handleEmailChange}/>
 
             <label>Password: </label>
-            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Password" onChange={handlePasswordChange} />
 
             <label>Confirm Password: </label>
             <input type="password" placeholder="Confirm Password" />
