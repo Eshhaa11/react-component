@@ -11,7 +11,7 @@ function Details () {
         <p>We are learning react</p>
 
         <label>"Comment: "</label>
-        <textarea placeholder="Add Comment"></textarea>
+        <textarea placeholder="Add Comment"> onChange={handleTextChange}</textarea>
 
         <button>Comment</button>
      </div> 
