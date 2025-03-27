@@ -22,7 +22,7 @@ function Registration () {
     return (
         <div>
             <label>UserName:</label>
-            <input type="text" placeholder="Username" />
+            <input type="text" placeholder="Username" onChange={handleUserNameChange} />
 
             <label>Email: </label>
             <input type="email" placeholder="Email" />
