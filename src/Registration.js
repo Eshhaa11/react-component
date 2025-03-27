@@ -1,6 +1,10 @@
 import React from "react";
 
 function Registration () {
+
+    const handleButtonOnClick = (e) {
+        
+    }
     return (
         <div>
             <label>UserName:</label>
