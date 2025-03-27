@@ -6,8 +6,8 @@ function Registration () {
         console.log("UserName: ", username);
         console.log("Email: ", email);
         console.log("Password: ", password);
-
-    }
+        console.log("Confirm Password: ", confirmpassword);
+    };
     return (
         <div>
             <label>UserName:</label>
