@@ -4,6 +4,7 @@ import FormInput from './FormInput';
 import Details from './Details';
 import Registration from './Registration';
 
+
 function App() {
   return (
     <div>
