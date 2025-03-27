@@ -6,7 +6,9 @@ function Registration () {
     const [email, setEmail] = useState ("");
     const [password, setPassword] = useState ("");
     const [confirmpassword, setConfirmPassword] = useState("");
-};
+
+    const handleUserNameChange = (e) => setUserName(e.target.value);
+
 
 
     const handleButtonOnClick = (e) => {
@@ -34,3 +36,5 @@ function Registration () {
         </div>
     );
 }
+
+export default Registration;
