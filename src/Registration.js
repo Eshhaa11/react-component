@@ -2,7 +2,8 @@ import React, {useState} from "react";
 
 function Registration () {
 
-    const [username, setUserName] = useState ("")
+    const [username, setUserName] = useState ("");
+    const [email, setEmail] = useState ("");
 
     const handleButtonOnClick = (e) => {
         console.log("UserName: ", username);
