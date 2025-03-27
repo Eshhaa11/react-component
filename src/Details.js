@@ -4,7 +4,12 @@ function Details () {
 
     const handleTextChange = (e) => {
         console.log("Comment:", e.target.value)
-    }
+    };
+
+    const handleButtonOnClick = (e) => {
+        console.log("Button Clicked", e.target.value)
+    };
+    
     return (
      <div>
         <h1>REACT FUNDAMENTALS</h1>
