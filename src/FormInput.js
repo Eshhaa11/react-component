@@ -4,7 +4,8 @@ function FormInput () {
 
     const [name, setName] = useState("");
     const [number, setNumber] = useState("");
-    
+    const [password, setPassword] = useState("");
+
     
 
     const handleNameChange = (e) => {
