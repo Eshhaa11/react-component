@@ -8,7 +8,10 @@ function Details () {
 
         <label>"Comment: "</label>
         <textarea placeholder="Add Comment"></textarea>
-     </div>   
+
+        <button>Comment</button>
+     </div> 
+
 
     );
 }
