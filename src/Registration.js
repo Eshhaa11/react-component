@@ -9,6 +9,8 @@ function Registration () {
             <label>Email: </label>
             <input type="email" placeholder="Email" />
 
+            <label>Password: </label>
+
         </div>
     );
 }
