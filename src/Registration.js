@@ -8,8 +8,8 @@ function Registration () {
     const [confirmpassword, setConfirmPassword] = useState("");
 
     const handleUserNameChange = (e) => setUserName(e.target.value);
-    const handleEmailChange = (e) => setEmail(e.target.value) ;
-
+    const handleEmailChange = (e) => setEmail(e.target.value);
+    const handlePasswordChange = (e) => setPassword(e.target.value);
 
 
     const handleButtonOnClick = (e) => {
