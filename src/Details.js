@@ -9,7 +9,7 @@ function Details () {
     const handleButtonOnClick = (e) => {
         console.log("Button Clicked", e.target.value)
     };
-    
+
     return (
      <div>
         <h1>REACT FUNDAMENTALS</h1>
@@ -18,7 +18,7 @@ function Details () {
         <label>"Comment: "</label>
         <textarea placeholder="Add Comment"> onChange={handleTextChange}</textarea>
 
-        <button>Comment</button>
+        <button onClick={handleButtonOnClick}>Comment</button>
      </div> 
 
 
