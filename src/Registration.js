@@ -5,7 +5,9 @@ function Registration () {
     const [username, setUserName] = useState ("");
     const [email, setEmail] = useState ("");
     const [password, setPassword] = useState ("");
-    
+    const [confirmpassword, setConfirmPassword] = useState("");
+};
+
 
     const handleButtonOnClick = (e) => {
         console.log("UserName: ", username);
