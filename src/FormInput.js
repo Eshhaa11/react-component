@@ -6,6 +6,10 @@ function FormInput () {
         console.log("Name:", e.target.value);
     };
 
+    const handleNumberChange = (e) => {
+        console.log("Number:", e.target.value);
+    };
+
     return (
         <div>
             <h2>User's Details</h2>
