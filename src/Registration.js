@@ -31,7 +31,7 @@ function Registration () {
             <input type="password" placeholder="Password" onChange={handlePasswordChange} />
 
             <label>Confirm Password: </label>
-            <input type="password" placeholder="Confirm Password" />
+            <input type="password" placeholder="Confirm Password" onChange={handleUserNameChange}/>
 
             <button onClick={handleButtonOnClick}>Submit</button>
 
