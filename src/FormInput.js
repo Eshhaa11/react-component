@@ -14,6 +14,10 @@ function FormInput () {
         console.log("Password:", e.target.value);
     };
 
+    const handleOnClick = (e) => {
+        console.log("Button has been clicked!", e.target.value);
+    };
+
     return (
         <div>
             <h2>User's Details</h2>
