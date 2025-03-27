@@ -1,6 +1,11 @@
 import React from "react";
 
 function FormInput () {
+
+    const handleNameChange = (e) => {
+        console.log("Name:", e.target.value);
+    };
+
     return (
         <div>
             <h2>User's Details</h2>
